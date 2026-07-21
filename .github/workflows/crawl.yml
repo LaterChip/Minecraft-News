@@ -1,44 +1,41 @@
 name: 每日自动爬取MC Wiki数据
 on:
-  # 每日 UTC 0点 = 北京时间早上8点自动执行
   schedule:
+    # UTC 0点 = 北京时间早上8点执行
     - cron: "0 0 * * *"
-  # 支持手动点击运行测试
   workflow_dispatch:
 
 jobs:
   scraper_task:
     runs-on: ubuntu-latest
     steps:
-      # 拉取完整仓库代码，保留所有提交记录
+      # 检出完整代码
       - name: 检出仓库代码
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # 配置Python环境
+      # Python配置：移除cache: pip，彻底消除文件检测报错
       - name: 设置 Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: pip
 
-      # 安装爬虫基础依赖，按需增减
+      # 手动安装依赖，不依赖requirements.txt
       - name: 安装爬虫依赖库
         run: |
           pip install requests beautifulsoup4 lxml
 
-      # 执行你的爬虫脚本，等价本地bat功能
+      # 运行你的爬虫脚本
       - name: 运行MC数据爬虫
         run: python scraper/fetch_minecraft_news.py
 
-      # 自动提交data、logs目录更新并推送远程仓库
+      # 自动提交更新数据
       - name: 提交更新数据
         run: |
           git config --global user.name "MC-Wiki-AutoBot"
           git config --global user.email "bot@mcwiki-demo.com"
           git add ./data/ ./logs/
-          # 判断是否有文件变更，有变更才提交推送
           if [[ -n $(git status --porcelain) ]]; then
             git commit -m "自动更新MC Wiki数据 $(date '+%Y-%m-%d')"
             git push
