@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- 基础 SEO -->
+  <title>Minecraft 每日信息站 · Java / 基岩 / 网易</title>
+  <meta name="description" content="每天自动从 Minecraft Wiki / Mojang 官方抓取的 Java 版 / 基岩版 / 网易版最新版本、特性、新闻与动态。Action & Stuff 风格按钮 + Minecraft Wiki 风格布局。">
+  <meta name="keywords" content="Minecraft, 我的世界, Java, Bedrock, 基岩版, 网易版, Mojang, Wiki, 版本更新, 快照, 特性, 每日新闻">
+  <meta name="author" content="Minecraft News Aggregator">
+  <meta name="theme-color" content="#1a1a23">
+  <meta name="color-scheme" content="dark light">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Minecraft 每日信息站">
+  <meta property="og:title" content="Minecraft 每日信息站 · Java / 基岩 / 网易">
+  <meta property="og:description" content="每天自动从 Minecraft Wiki / Mojang 官方抓取的 Java / 基岩 / 网易版最新动态。">
+  <meta property="og:locale" content="zh_CN">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Minecraft 每日信息站">
+  <meta name="twitter:description" content="Java / 基岩 / 网易版每日信息汇总。">
+
+  <!-- Favicon (内联 SVG 数据 URL) -->
+  <link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%235fa840'/><path d='M8 8h4v4H8zM14 8h4v4h-4zM20 8h4v4h-4zM8 14h4v4H8zM14 14h4v4h-4zM20 14h4v4h-4zM8 20h4v4H8zM14 20h4v4h-4z' fill='%231a2910'/></svg>">
+
+  <!-- Apple touch icon -->
+  <link rel="apple-touch-icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect width='180' height='180' fill='%235fa840'/><text x='50%' y='62%' font-size='100' text-anchor='middle' fill='%231a2910' font-family='monospace' font-weight='bold'>M</text></svg>">
+
+  <!-- 预连接字体 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- 样式表 -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- 立即执行主题, 防止闪烁 -->
+  <script>
+    (function(){
+      try {
+        var t = localStorage.getItem('mcnews-theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', t);
+      } catch(e) {}
+    })();
+  </script>
+</head>
+<body>
+
+<!-- ====================================================================
+     顶栏
+     ==================================================================== -->
+<header class="topbar" role="banner">
+  <div class="topbar-inner">
+    <a class="logo" href="#top" aria-label="返回顶部">
+      <div class="logo-mark" aria-hidden="true">M</div>
+      <div class="logo-text">
+        <span class="l1">MINECRAFT DAILY</span>
+        <span class="l2">Java · Bedrock · 网易版</span>
+      </div>
+    </a>
+
+    <nav class="topbar-nav" aria-label="主导航">
+      <button class="chip" data-jump="kpi">概览</button>
+      <button class="chip" data-jump="java">Java 版</button>
+      <button class="chip" data-jump="bedrock">基岩版</button>
+      <button class="chip" data-jump="netease">网易版</button>
+      <button class="chip" data-jump="meta">数据</button>
+    </nav>
+
+    <div class="topbar-actions">
+      <span id="refresh-indicator" title="页面打开/手动刷新时从 latest.json 重新加载数据">
+        <span class="dot" aria-hidden="true"></span>
+        <span>实时</span>
+      </span>
+      <div class="clock" aria-live="polite">
+        <span class="time" id="clock-time">--:--:--</span>
+        <span class="date" id="clock-date">----.--.--</span>
+      </div>
+      <button class="btn sm stone" id="btn-refresh" title="重新加载数据">
+        <span aria-hidden="true">⟳</span> 刷新
+      </button>
+      <button class="btn sm gold" id="btn-settings" title="设置">
+        <span aria-hidden="true">⚙</span> 设置
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ====================================================================
+     主体内容
+     ==================================================================== -->
+<main class="container" id="top">
+
+  <!-- 页面介绍 -->
+  <section class="callout info" id="intro">
+    <strong>每日自动刷新</strong> · 本页由本地脚本 (scraper/fetch_minecraft_news.py) 每日从
+    <a href="https://launchermeta.mojang.com/mc/game/version_manifest.json" target="_blank" rel="noopener">Mojang 官方 API</a> /
+    <a href="https://minecraft.wiki/" target="_blank" rel="noopener">Minecraft Wiki</a> /
+    <a href="https://mc.163.com" target="_blank" rel="noopener">mc.163.com</a>
+    拉取最新数据, 写入 <code>data/latest.json</code>。 按钮风格参考 Actions &amp; Stuff 材质包, 布局参考 Minecraft Wiki。
+    <span id="intro-fetched" style="display:block; margin-top:6px; font-size:11px; color:var(--c-text-mute);"></span>
+  </section>
+
+  <!-- KPI 概览 -->
+  <section class="kpi-row" id="kpi" aria-label="数据概览">
+    <div class="kpi java">
+      <div class="kpi-label">Java 最新正式版</div>
+      <div class="kpi-value" data-kpi="java-release">—</div>
+      <div class="kpi-sub" data-kpi="java-release-sub">加载中...</div>
+    </div>
+    <div class="kpi java">
+      <div class="kpi-label">Java 最新快照</div>
+      <div class="kpi-value" data-kpi="java-snap">—</div>
+      <div class="kpi-sub" data-kpi="java-snap-sub">加载中...</div>
+    </div>
+    <div class="kpi bedrock">
+      <div class="kpi-label">基岩最新正式版</div>
+      <div class="kpi-value" data-kpi="bedrock-release">—</div>
+      <div class="kpi-sub" data-kpi="bedrock-release-sub">加载中...</div>
+    </div>
+    <div class="kpi bedrock">
+      <div class="kpi-label">基岩最新 Preview</div>
+      <div class="kpi-value" data-kpi="bedrock-preview">—</div>
+      <div class="kpi-sub" data-kpi="bedrock-preview-sub">加载中...</div>
+    </div>
+    <div class="kpi netease">
+      <div class="kpi-label">网易版状态</div>
+      <div class="kpi-value" data-kpi="netease-status">—</div>
+      <div class="kpi-sub" data-kpi="netease-status-sub">加载中...</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">总数据条目</div>
+      <div class="kpi-value" data-kpi="total">—</div>
+      <div class="kpi-sub" data-kpi="total-sub">Java + 基岩 + 网易</div>
+    </div>
+  </section>
+
+  <!-- ================= Java 版 ================= -->
+  <section class="edition-section" id="java" aria-label="Java 版">
+    <div class="edition-header java">
+      <div class="edition-logo" aria-hidden="true">☕</div>
+      <div class="edition-title">
+        <h2>Minecraft: Java Edition</h2>
+        <div class="sub">Mojang Studios · Windows / macOS / Linux · Mod 与服务器生态之王</div>
+      </div>
+      <div class="edition-stats">
+        <span class="chip" id="java-stat-versions">0 版本</span>
+        <span class="chip" id="java-stat-news">0 动态</span>
+        <span class="chip" id="java-stat-features">0 特性</span>
+      </div>
+    </div>
+
+    <div class="subgrid">
+      <!-- 当前版本 -->
+      <div class="panel span-6">
+        <div class="panel-header">
+          <div class="panel-icon" aria-hidden="true">⛏</div>
+          <div class="panel-title">当前 & 即将发布的版本</div>
+        </div>
+        <div class="panel-body">
+          <div class="vercard">
+            <div class="item release">
+              <span class="tag">Release</span>
+              <div class="lbl">最新正式版</div>
+              <div class="num" data-java="latest-num">—</div>
+              <div class="meta">
+                <div><strong>类型:</strong> <span data-java="latest-type">—</span></div>
+                <div><strong>发布:</strong> <span data-java="latest-date">—</span></div>
+                <div><strong>来源:</strong> <span data-java="latest-source">—</span></div>
+              </div>
+              <div style="margin-top:10px; display:flex; gap:6px;">
+                <a class="btn sm gold" data-java="latest-link" href="#" target="_blank" rel="noopener">查看 Wiki</a>
+              </div>
+            </div>
+            <div class="item snapshot">
+              <span class="tag">Snapshot</span>
+              <div class="lbl">最新快照 / 预发布</div>
+              <div class="num" data-java="upcoming-num">—</div>
+              <div class="meta">
+                <div><strong>类型:</strong> <span data-java="upcoming-type">—</span></div>
+                <div><strong>发布:</strong> <span data-java="upcoming-date">—</span></div>
+                <div><strong>源:</strong> Mojang manifest</div>
+              </div>
+              <div style="margin-top:10px; display:flex; gap:6px;">
+                <a class="btn sm" data-java="upcoming-link" href="#" target="_blank" rel="noopener">查看 Wiki</a>
+              </div>
+            </div>
+          </div>
+          <div class="callout" data-java="notes" style="display:none"></div>
+        </div>
+      </div>
+
+      <!-- 特性 -->
+      <div class="panel span-6">
+        <div class="panel-header">
+          <div class="panel-icon" aria-hidden="true">🌟</div>
+          <div class="panel-title">近期特性亮点</div>
+        </div>
+        <div class="panel-body">
+          <div class="feature-grid" data-java="features">
+            <div class="empty">加载中...</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 时间线 -->
+      <div class="panel span-7">
+        <div class="panel-header">
+          <div class="panel-icon" aria-hidden="true">⏱</div>
+          <div class="panel-title">最近发布的版本 (近 14)</div>
+        </div>
+        <div class="panel-body">
+          <div class="timeline" data-java="timeline">
+            <div class="empty">加载中...</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 新闻 -->
+      <div class="panel span-5">
+        <div class="panel-header">
+          <div class="panel-icon" aria-hidden="true">📰</div>
+          <div class="panel-title">近 7 天动态</div>
+          <span class="chip" id="java-news-count">0</span>
+        </div>
+        <div class="panel-body">
+          <div class="news-list" data-java="news">
+            <div class="empty">加载中...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 基岩版 ================= -->
+  <section class="edition-section" id="bedrock" aria-label="基岩版">
+    <div class="edition-header bedrock">
+      <div class="edition-logo" aria-hidden="true">🧊</div>
+      <div class="edition-title">
+        <h2>Minecraft: Bedrock Edition</h2>
+        <div class="sub">Mojang Studios · Windows / Xbox / PlayStation / Switch / Mobile · 跨平台联机</div>
+      </div>
+      <div class="edition-stats">
+        <span class="chip" id="bedrock-stat-versions">0 版本</span>
+        <span class="chip" id="bedrock-stat-news">0 动态</span>
+        <span class="chip" id="bedrock-stat-features">0 特性</span>
+      </div>
+    </div>
+
+    <div class="subgrid">
+      <!-- 当前版本 -->
+      <div class="panel span-6">
+        <div class="panel-header">
+          <div class="panel-icon" aria-hidden="true">🎮</div>
+          <div class="panel-title">当前 & 即将发布的版本</div>
+        </div>
+        <div class="panel-body">
+          <div class="vercard">
+            <div class="item release">
+              <span class="tag">Release</span>
+              <div class="lbl">最新正式版</div>
+              <div class="num" data-bedrock="latest-num">—</div>
+              <div class="meta">
+                <div><strong>类型:</strong> <span data-bedrock="latest-type">—</span></div>
+                <div><strong>发布:</strong> <span data-bedrock="latest-date">—</span></div>
+                <div><strong>源:</strong> 公开版本号</div>
+              </div>
+              <div style="margin-top:10px; display:flex; gap:6px;">
+                <a class="btn sm diamond" data-bedrock="latest-link" href="#" target="_blank" rel="noopener">查看 Release Notes</a>
+              </div>
+            </div>
+            <div class="item preview">
+              <span class="tag">Preview</span>
+              <div class="lbl">最新 Preview / Beta</div>
+              <div class="num" data-bedrock="upcoming-num">—</div>
+              <div class="meta">
+                <div><strong>类型:</strong> <span data-bedrock="upcoming-type">—</span></div>
+                <div><strong>发布:</strong> <span data-bedrock="upcoming-date">—</span></div>
+                <div><strong>源:</strong> feedback.minecraft.net</div>
+              </div>
+              <div style="margin-top:10px; display:flex; gap:6px;">
+                <a class="btn sm" data-bedrock="upcoming-link" href="#" target="_blank" rel="noopener">查看 Preview</a>
+              </div>
+            </div>
+          </div>
+          <div class="callout" data-bedrock="notes" style="display:none"></div>
+        </div>
+      </div>
+
+      <!-- 特性 -->
+      <div class="panel span-6">
+        <div class="panel-header">
+          <div class="panel-icon" aria-hidden="true">✨</div>
+          <div class="panel-title">基岩版核心特性</div>
+        </div>
+        <div class="panel-body">
+          <div class="feature-grid" data-bedrock="features">
+            <div class="empty">加载中...</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 历史表 -->
+      <div class="panel span-7">
+        <div class="panel-header">
+          <div class="panel-icon" aria-hidden="true">📜</div>
+          <div class="panel-title">近期版本表</div>
+        </div>
+        <div class="panel-body" style="padding: 8px 12px 12px;">
+          <table class="mc" data-bedrock="table">
+            <thead>
+              <tr>
+                <th>版本号</th>
+                <th>类型</th>
+                <th>日期</th>
+                <th>摘要</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody><tr><td colspan="5" class="empty">加载中...</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- 新闻 -->
+      <div class="panel span-5">
+        <div class="panel-header">
+          <div class="panel-icon" aria-hidden="true">📰</div>
+          <div class="panel-title">官方新闻</div>
+          <span class="chip" id="bedrock-news-count">0</span>
+        </div>
+        <div class="panel-body">
+          <div class="news-list" data-bedrock="news">
+            <div class="empty">加载中...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 网易版 ================= -->
+  <section class="edition-section" id="netease" aria-label="网易版">
+    <div class="edition-header netease">
+      <div class="edition-logo" aria-hidden="true">🐉</div>
+      <div class="edition-title">
+        <h2>我的世界 · 网易版 (中国版)</h2>
+        <div class="sub">网易游戏代理 · 国服独占内容 / 联机大厅 / 组件中心</div>
+      </div>
+      <div class="edition-stats">
+        <span class="chip" id="netease-stat-versions">0 版本</span>
+        <span class="chip" id="netease-stat-news">0 动态</span>
+        <span class="chip" id="netease-stat-features">0 特性</span>
+      </div>
+    </div>
+
+    <div class="subgrid">
+      <!-- 状态 -->
+      <div class="panel span-6">
+        <div class="panel-header">
+          <div class="panel-icon" aria-hidden="true">🇨🇳</div>
+          <div class="panel-title">网易版状态</div>
+        </div>
+        <div class="panel-body">
+          <div class="vercard">
+            <div class="item release">
+              <span class="tag">运营</span>
+              <div class="lbl">当前运营版本</div>
+              <div class="num" data-netease="latest-num">—</div>
+              <div class="meta">
+                <div><strong>代理:</strong> 网易游戏</div>
+                <div><strong>上线:</strong> 2017 年</div>
+                <div><strong>源:</strong> <span>mc.163.com</span></div>
+              </div>
+              <div style="margin-top:10px; display:flex; gap:6px;">
+                <a class="btn sm end" data-netease="latest-link" href="https://mc.163.com" target="_blank" rel="noopener">访问网易版</a>
+              </div>
+            </div>
+            <div class="item upcoming">
+              <span class="tag">更新</span>
+              <div class="lbl">更新节奏</div>
+              <div class="num" data-netease="upcoming-num">—</div>
+              <div class="meta">
+                <div><strong>节奏:</strong> 周/月持续</div>
+                <div><strong>内容:</strong> 活动 + 玩法 + 独占</div>
+                <div><strong>跟进:</strong> 跟随基岩版大版本</div>
+              </div>
+              <div style="margin-top:10px; display:flex; gap:6px;">
+                <a class="btn sm" href="https://mc.163.com/news" target="_blank" rel="noopener">查看新闻</a>
+              </div>
+            </div>
+          </div>
+          <div class="callout warn" data-netease="notes" style="display:none"></div>
+        </div>
+      </div>
+
+      <!-- 特性 -->
+      <div class="panel span-6">
+        <div class="panel-header">
+          <div class="panel-icon" aria-hidden="true">🎎</div>
+          <div class="panel-title">网易版独家特性</div>
+        </div>
+        <div class="panel-body">
+          <div class="feature-grid" data-netease="features">
+            <div class="empty">加载中...</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 历史 -->
+      <div class="panel span-7">
+        <div class="panel-header">
+          <div class="panel-icon" aria-hidden="true">📜</div>
+          <div class="panel-title">网易版跟进历史</div>
+        </div>
+        <div class="panel-body">
+          <div class="timeline" data-netease="timeline">
+            <div class="empty">加载中...</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 新闻 -->
+      <div class="panel span-5">
+        <div class="panel-header">
+          <div class="panel-icon" aria-hidden="true">📰</div>
+          <div class="panel-title">网易版官方新闻</div>
+          <span class="chip" id="netease-news-count">0</span>
+        </div>
+        <div class="panel-body">
+          <div class="news-list" data-netease="news">
+            <div class="empty">加载中...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 数据 / 元信息 ================= -->
+  <section class="edition-section" id="meta" aria-label="数据">
+    <div class="edition-header" style="--accent: var(--c-stone);">
+      <div class="edition-logo" aria-hidden="true">📊</div>
+      <div class="edition-title">
+        <h2>数据与元信息</h2>
+        <div class="sub">抓取时间 / 数据来源 / 自动化状态</div>
+      </div>
+      <div class="edition-stats">
+        <span class="chip" id="meta-fetched">—</span>
+        <span class="chip" id="meta-elapsed">—</span>
+      </div>
+    </div>
+
+    <div class="subgrid">
+      <div class="panel span-6">
+        <div class="panel-header">
+          <div class="panel-icon">🌐</div>
+          <div class="panel-title">数据来源</div>
+        </div>
+        <div class="panel-body" id="meta-sources">加载中...</div>
+      </div>
+      <div class="panel span-6">
+        <div class="panel-header">
+          <div class="panel-icon">📦</div>
+          <div class="panel-title">数据规模</div>
+        </div>
+        <div class="panel-body" id="meta-stats">加载中...</div>
+      </div>
+      <div class="panel span-12">
+        <div class="panel-header">
+          <div class="panel-icon">🤖</div>
+          <div class="panel-title">自动刷新</div>
+        </div>
+        <div class="panel-body">
+          <p>本网页由 <code>scraper/fetch_minecraft_news.py</code> 在每日凌晨从
+            <strong>Mojang 官方</strong> / <strong>Minecraft Wiki</strong> / <strong>mc.163.com</strong> 抓取并写入 <code>data/latest.json</code>。
+            通过 <strong>Windows 任务计划程序</strong> 每日执行。
+            当前所有数据由本地缓存, 离线也可阅读; 联网时, 点击右上角
+            <button class="btn sm stone" disabled>⟳ 刷新</button> 即可重新拉取。
+          </p>
+          <div class="tag-row" style="margin-top:10px;">
+            <span class="chip">Java</span>
+            <span class="chip">Bedrock</span>
+            <span class="chip">网易</span>
+            <span class="chip">Mojang API</span>
+            <span class="chip">每日自动</span>
+            <span class="chip">离线可用</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 操作区 ================= -->
+  <section class="edition-section" aria-label="操作">
+    <div class="subgrid">
+      <div class="panel span-12">
+        <div class="panel-header">
+          <div class="panel-icon">🛠</div>
+          <div class="panel-title">快捷操作</div>
+        </div>
+        <div class="panel-body" style="display:flex; flex-wrap:wrap; gap:10px;">
+          <button class="btn" id="act-refresh">⟳ 重新加载数据</button>
+          <button class="btn gold" id="act-export">💾 导出 latest.json</button>
+          <button class="btn stone" id="act-clear-cache">🗑 清空本地缓存</button>
+          <button class="btn diamond" id="act-search">🔍 搜索全部</button>
+          <button class="btn redstone" id="act-about">❓ 关于 / 帮助</button>
+          <button class="btn end" id="act-night">🌙 切换主题</button>
+          <a class="btn wood" href="https://minecraft.wiki" target="_blank" rel="noopener">📚 Minecraft Wiki</a>
+          <a class="btn" href="https://mc.163.com" target="_blank" rel="noopener">🐉 网易版官网</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ====================================================================
+     页脚
+     ==================================================================== -->
+<footer class="footer" role="contentinfo">
+  <div class="pixel" style="font-size:14px; color: var(--c-grass-light);">MINECRAFT DAILY · 每日自动刷新</div>
+  <div style="margin-top:6px;">
+    本项目为非官方粉丝作品, 与 Mojang Studios / Microsoft / 网易无任何隶属关系.
+    所有游戏内容版权归 Mojang AB &amp; Microsoft 所有. 数据来源见
+    <a href="#meta">数据来源</a>。
+  </div>
+  <div class="links">
+    <a href="https://minecraft.net" target="_blank" rel="noopener">minecraft.net</a>
+    <a href="https://minecraft.wiki" target="_blank" rel="noopener">Minecraft Wiki</a>
+    <a href="https://launchermeta.mojang.com" target="_blank" rel="noopener">Mojang API</a>
+    <a href="https://mc.163.com" target="_blank" rel="noopener">网易版</a>
+    <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+  </div>
+  <div style="margin-top:8px; font-size:11px; color:var(--c-text-mute);">
+    <span id="footer-meta">—</span>
+  </div>
+</footer>
+
+<!-- ====================================================================
+     模态框: 搜索
+     ==================================================================== -->
+<div class="modal-bg" id="modal-search" role="dialog" aria-modal="true" aria-labelledby="modal-search-title">
+  <div class="modal">
+    <button class="close" data-close="modal-search" aria-label="关闭">✕</button>
+    <h3 id="modal-search-title">🔍 搜索全部内容</h3>
+    <input type="search" id="search-input" placeholder="输入版本号、关键词..."
+           style="width:100%; padding:10px 12px; font-family: var(--font-mono); font-size:14px;
+                  background: var(--c-bg-soft); border: 1.5px solid var(--c-border);
+                  border-radius: var(--radius); color: var(--c-text); margin-bottom:12px;">
+    <div id="search-results" style="max-height: 60vh; overflow: auto;"></div>
+  </div>
+</div>
+
+<!-- ====================================================================
+     模态框: 设置
+     ==================================================================== -->
+<div class="modal-bg" id="modal-settings" role="dialog" aria-modal="true" aria-labelledby="modal-settings-title">
+  <div class="modal">
+    <button class="close" data-close="modal-settings" aria-label="关闭">✕</button>
+    <h3 id="modal-settings-title">⚙ 设置</h3>
+    <div style="display:grid; gap:10px;">
+      <label style="display:flex; align-items:center; gap:10px; cursor:pointer;">
+        <input type="checkbox" id="set-anim" checked> 启用交互动画
+      </label>
+      <label style="display:flex; align-items:center; gap:10px; cursor:pointer;">
+        <input type="checkbox" id="set-news-limit" checked> 新闻列表限制为前 12 条
+      </label>
+      <label style="display:flex; align-items:center; gap:10px; cursor:pointer;">
+        <input type="checkbox" id="set-clock-24" checked> 24 小时制
+      </label>
+      <label style="display:flex; align-items:center; gap:10px; cursor:pointer;">
+        <input type="checkbox" id="set-density"> 紧凑模式 (缩小卡片间距)
+      </label>
+      <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:8px;">
+        <button class="btn sm" id="set-clear-storage">清空本地存储</button>
+        <button class="btn sm gold" id="set-export">导出数据 (JSON)</button>
+        <button class="btn sm stone" data-close="modal-settings">关闭</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ====================================================================
+     模态框: 关于
+     ==================================================================== -->
+<div class="modal-bg" id="modal-about" role="dialog" aria-modal="true" aria-labelledby="modal-about-title">
+  <div class="modal">
+    <button class="close" data-close="modal-about" aria-label="关闭">✕</button>
+    <h3 id="modal-about-title">关于 / 帮助</h3>
+    <p style="line-height:1.6;">
+      本页面是一个 <strong>Minecraft 每日信息聚合站</strong>, 每天自动从官方数据源抓取
+      <em>Java 版 / 基岩版 / 网易版</em>的最新版本、特性、新闻等数据, 展示在
+      Actions &amp; Stuff 材质包风格的按钮 + Minecraft Wiki 风格的布局中.
+    </p>
+    <h4 style="font-family:var(--font-mono); color:var(--c-gold); margin-top:14px;">数据源</h4>
+    <ul style="line-height:1.7;">
+      <li><strong>Java 版</strong>: <a href="https://launchermeta.mojang.com/mc/game/version_manifest.json" target="_blank">Mojang version_manifest.json</a> (官方 API, 包含所有历史版本)</li>
+      <li><strong>基岩版</strong>: <a href="https://feedback.minecraft.net" target="_blank">feedback.minecraft.net</a> 官方更新说明 + 公开版本号</li>
+      <li><strong>网易版</strong>: <a href="https://mc.163.com" target="_blank">mc.163.com</a> 网易官方 + 公开资料</li>
+    </ul>
+    <h4 style="font-family:var(--font-mono); color:var(--c-gold); margin-top:14px;">自动刷新</h4>
+    <p style="line-height:1.6;">通过 <code>scraper/fetch_minecraft_news.py</code> + Windows 任务计划程序每日执行 + Github Actions,
+      把结果写入 <code>data/latest.json</code>, 页面打开/手动刷新时读取.</p>
+    <h4 style="font-family:var(--font-mono); color:var(--c-gold); margin-top:14px;">项目结构</h4>
+    <pre style="background: var(--c-bg-soft); border: 1.5px solid var(--c-border); border-radius: var(--radius); padding: 10px; font-size: 11px; overflow: auto;">minecraft-news/
+├─ index.html
+├─ css/style.css
+├─ js/app.js
+├─ data/
+│  ├─ latest.json
+│  ├─ java.json
+│  ├─ bedrock.json
+│  ├─ netease.json
+│  └─ history/  (按日期归档)
+├─ scraper/fetch_minecraft_news.py
+└─ logs/  (按日期记录)
+</pre>
+    <div style="display:flex; gap:8px; margin-top:14px;">
+      <button class="btn" data-close="modal-about">知道了</button>
+    </div>
+  </div>
+</div>
+
+<!-- Toast 容器 -->
+<div class="toasts" id="toasts" aria-live="polite" aria-atomic="true"></div>
+
+<!-- JS -->
+<script src="js/app.js" defer></script>
+
+</body>
+</html>
