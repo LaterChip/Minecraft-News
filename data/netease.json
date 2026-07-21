@@ -1,0 +1,147 @@
+{
+  "edition": "netease",
+  "display_name": "网易版 (中国版)",
+  "accent": "#e85aad",
+  "logo": "🐉 N",
+  "latest_version": {
+    "id": "netease-cn",
+    "type": "release",
+    "number": "网易版",
+    "name": "我的世界 (网易版)",
+    "released": "2017-04 在中国大陆正式上线, 由网易运营",
+    "summary": "网易代理运营的国服版本, 包含独占内容、联机大厅与组件中心.",
+    "url": "https://mc.163.com/",
+    "extra": {}
+  },
+  "upcoming_version": {
+    "id": "netease-next",
+    "type": "upcoming",
+    "number": "持续更新",
+    "name": "网易版持续更新",
+    "released": "",
+    "summary": "网易版以周/月为节奏持续推出活动与版本更新.",
+    "url": "https://mc.163.com/news",
+    "extra": {}
+  },
+  "recent_versions": [
+    {
+      "id": "网易版 (对基岩 1.26)",
+      "type": "release",
+      "number": "网易版 (对基岩 1.26)",
+      "name": "网易版 (对基岩 1.26)",
+      "released": "2026-07",
+      "summary": "网易版跟进基岩版大版本",
+      "url": "https://mc.163.com/news",
+      "extra": {}
+    },
+    {
+      "id": "网易版 (对基岩 1.21)",
+      "type": "release",
+      "number": "网易版 (对基岩 1.21)",
+      "name": "网易版 (对基岩 1.21)",
+      "released": "2024-08",
+      "summary": "Tricky Trials 内容跟进",
+      "url": "https://mc.163.com/news",
+      "extra": {}
+    },
+    {
+      "id": "网易版 (对基岩 1.20)",
+      "type": "release",
+      "number": "网易版 (对基岩 1.20)",
+      "name": "网易版 (对基岩 1.20)",
+      "released": "2023-12",
+      "summary": "Trails & Tales 跟进",
+      "url": "https://mc.163.com/news",
+      "extra": {}
+    }
+  ],
+  "recent_news": [
+    {
+      "title": "æçä¸ç",
+      "summary": "",
+      "date": "",
+      "url": "https://mc.163.com//mc.163.com/",
+      "category": "网易",
+      "source": "mc.163.com"
+    },
+    {
+      "title": "æçä¸ç",
+      "summary": "",
+      "date": "",
+      "url": "https://mc.163.com//mc.163.com/",
+      "category": "网易",
+      "source": "mc.163.com"
+    },
+    {
+      "title": "å¾®å",
+      "summary": "",
+      "date": "",
+      "url": "https://mc.163.com//weibo.com/MinecraftChina",
+      "category": "网易",
+      "source": "mc.163.com"
+    },
+    {
+      "title": "è®¸å¯åè®®",
+      "summary": "",
+      "date": "",
+      "url": "https://mc.163.com/news/update/20180619/29176_719812.html",
+      "category": "网易",
+      "source": "mc.163.com"
+    },
+    {
+      "title": "æçä¸ç æµ·æ´ä¹çº¦",
+      "summary": "",
+      "date": "",
+      "url": "https://mc.163.com//mc.163.com/news/20180619/29175_757767.html",
+      "category": "网易",
+      "source": "mc.163.com"
+    }
+  ],
+  "features": [
+    {
+      "title": "国服独占内容",
+      "description": "网易版包含官方独占地图、皮肤、材质包、活动玩法, 部分由国内开发者与 Mojang 联合打造.",
+      "icon": "🇨🇳",
+      "category": "独占",
+      "version": "—"
+    },
+    {
+      "title": "组件中心 (Mod 平台)",
+      "description": "网易版组件中心提供官方和玩家上传的玩法/模组, 通过游戏内即可安装启用.",
+      "icon": "🧩",
+      "category": "Mod",
+      "version": "—"
+    },
+    {
+      "title": "联机大厅 / 租赁服",
+      "description": "官方联机大厅支持快速匹配小游戏、对战、生存, 也可一键开租赁服与好友长期联机.",
+      "icon": "🏰",
+      "category": "联机",
+      "version": "—"
+    },
+    {
+      "title": "充值与会员 / 装扮",
+      "description": "网易版通过充值系统提供 Minecoin、皮肤、人物装扮、尊享会员等增值服务.",
+      "icon": "💎",
+      "category": "商城",
+      "version": "—"
+    },
+    {
+      "title": "教育版集成",
+      "description": "网易版与教育版内容有部分互通, 教师与学生可使用教学资源.",
+      "icon": "📚",
+      "category": "教育",
+      "version": "—"
+    },
+    {
+      "title": "本地化与文化活动",
+      "description": "网易版定期推出与传统文化、节庆、影视 IP 联动的限时活动.",
+      "icon": "🎎",
+      "category": "活动",
+      "version": "—"
+    }
+  ],
+  "fetched_at": "2026-07-21T17:08:10.481182+08:00",
+  "source": "https://mc.163.com + 公开资料",
+  "notes": []
+}

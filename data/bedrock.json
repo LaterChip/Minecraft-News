@@ -1,0 +1,146 @@
+{
+  "edition": "bedrock",
+  "display_name": "基岩版",
+  "accent": "#5fa8d3",
+  "logo": "🧊 B",
+  "latest_version": {
+    "id": "1.26.33",
+    "type": "release",
+    "number": "1.26.33",
+    "name": "1.26.33",
+    "released": "2026-07-16",
+    "summary": "基岩版正式版",
+    "url": "https://feedback.minecraft.net/hc/en-us/articles?q=Bedrock+1.26.33",
+    "extra": {}
+  },
+  "upcoming_version": {
+    "id": "1.26.40.31",
+    "type": "preview",
+    "number": "1.26.40.31",
+    "name": "1.26.40.31",
+    "released": "2026-07-15",
+    "summary": "基岩版最新 Preview/Beta",
+    "url": "https://feedback.minecraft.net/hc/en-us/articles?q=Bedrock+1.26.40.31",
+    "extra": {}
+  },
+  "recent_versions": [
+    {
+      "id": "1.26.40.31",
+      "type": "preview",
+      "number": "1.26.40.31",
+      "name": "1.26.40.31",
+      "released": "2026-07-15",
+      "summary": "基岩版 Preview",
+      "url": "https://feedback.minecraft.net/hc/en-us/articles?q=Bedrock+1_26_40_31",
+      "extra": {}
+    },
+    {
+      "id": "1.26.40.30",
+      "type": "preview",
+      "number": "1.26.40.30",
+      "name": "1.26.40.30",
+      "released": "2026-07-08",
+      "summary": "基岩版 Preview",
+      "url": "https://feedback.minecraft.net/hc/en-us/articles?q=Bedrock+1_26_40_30",
+      "extra": {}
+    },
+    {
+      "id": "1.26.40.21",
+      "type": "preview",
+      "number": "1.26.40.21",
+      "name": "1.26.40.21",
+      "released": "2026-07-01",
+      "summary": "基岩版 Preview",
+      "url": "https://feedback.minecraft.net/hc/en-us/articles?q=Bedrock+1_26_40_21",
+      "extra": {}
+    },
+    {
+      "id": "1.26.40.20",
+      "type": "preview",
+      "number": "1.26.40.20",
+      "name": "1.26.40.20",
+      "released": "2026-06-24",
+      "summary": "基岩版 Preview",
+      "url": "https://feedback.minecraft.net/hc/en-us/articles?q=Bedrock+1_26_40_20",
+      "extra": {}
+    },
+    {
+      "id": "1.26.33",
+      "type": "release",
+      "number": "1.26.33",
+      "name": "1.26.33",
+      "released": "2026-07-16",
+      "summary": "基岩版正式版 - 新生物/群系/方块",
+      "url": "https://feedback.minecraft.net/hc/en-us/articles?q=Bedrock+1_26_33",
+      "extra": {}
+    },
+    {
+      "id": "1.26.32",
+      "type": "release",
+      "number": "1.26.32",
+      "name": "1.26.32",
+      "released": "2026-06-25",
+      "summary": "基岩版正式版 - 性能优化与修复",
+      "url": "https://feedback.minecraft.net/hc/en-us/articles?q=Bedrock+1_26_32",
+      "extra": {}
+    },
+    {
+      "id": "1.26.31",
+      "type": "release",
+      "number": "1.26.31",
+      "name": "1.26.31",
+      "released": "2026-06-17",
+      "summary": "基岩版正式版 - Bug 修复",
+      "url": "https://feedback.minecraft.net/hc/en-us/articles?q=Bedrock+1_26_31",
+      "extra": {}
+    }
+  ],
+  "recent_news": [],
+  "features": [
+    {
+      "title": "跨平台联机",
+      "description": "基岩版核心卖点: Windows / Xbox / PlayStation / Switch / 移动端跨平台联机.",
+      "icon": "🌐",
+      "category": "平台",
+      "version": "1.26.33"
+    },
+    {
+      "title": "Realms 与联机大厅",
+      "description": "官方 Realms + 精选服务器, 开黑/大型服务器一键加入.",
+      "icon": "🏰",
+      "category": "联机",
+      "version": "1.26.33"
+    },
+    {
+      "title": "市场 (Marketplace)",
+      "description": "基岩版独有市场: 皮肤、地图、材质包、人物创作等付费/免费内容.",
+      "icon": "🛒",
+      "category": "市场",
+      "version": "1.26.33"
+    },
+    {
+      "title": "官方追加包 (Add-On)",
+      "description": "基岩版通过行为包/资源包实现官方与玩家自制内容, 配套 Script API 进一步扩展玩法.",
+      "icon": "🧩",
+      "category": "Add-On",
+      "version": "1.26.33"
+    },
+    {
+      "title": "触屏与手柄支持",
+      "description": "原生支持触屏与手柄, 移动设备与主机平台体验更佳.",
+      "icon": "🎮",
+      "category": "操控",
+      "version": "1.26.33"
+    },
+    {
+      "title": "渲染与光追",
+      "description": "高端设备支持 RTX 光追与高分辨率材质包, 视觉效果更精致.",
+      "icon": "✨",
+      "category": "画面",
+      "version": "1.26.33"
+    }
+  ],
+  "fetched_at": "2026-07-21T17:08:10.480378+08:00",
+  "source": "https://feedback.minecraft.net + 公开版本号",
+  "notes": []
+}
