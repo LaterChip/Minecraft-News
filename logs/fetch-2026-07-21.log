@@ -1,0 +1,57 @@
+[2026-07-21 16:04:16] ===== 抓取任务开始 =====
+[2026-07-21 16:04:16] [JAVA] 开始抓取 Java 版...
+[2026-07-21 16:04:18] [HTTP] GET https://minecraft.wiki/api.php failed: 403 Client Error: Forbidden for url: https://minecraft.wiki/api.php?action=query&format=json&formatversion=2&prop=revisions%7Cpageprops&rvprop=content%7Ctimestamp&rvslots=main&titles=Java_Edition%7CJava_Edition_version_history
+[2026-07-21 16:04:18] [JAVA] latest= snapshot=
+[2026-07-21 16:04:20] [HTTP] GET https://minecraft.wiki/api.php failed: 403 Client Error: Forbidden for url: https://minecraft.wiki/api.php?action=query&format=json&formatversion=2&prop=revisions%7Cpageprops&rvprop=content%7Ctimestamp&rvslots=main&titles=Minecraft.net
+[2026-07-21 16:04:25] [HTTP] GET https://minecraft.wiki/api.php failed: 403 Client Error: Forbidden for url: https://minecraft.wiki/api.php?action=parse&format=json&formatversion=2&page=Java_Edition&prop=text%7Cwikitext%7Csections&redirects=1
+[2026-07-21 16:04:25] [BEDROCK] 开始抓取基岩版...
+[2026-07-21 16:04:29] [HTTP] GET https://minecraft.wiki/api.php failed: 403 Client Error: Forbidden for url: https://minecraft.wiki/api.php?action=query&format=json&formatversion=2&prop=revisions%7Cpageprops&rvprop=content%7Ctimestamp&rvslots=main&titles=Bedrock_Edition
+[2026-07-21 16:04:29] [BEDROCK] latest= preview=
+[2026-07-21 16:04:41] [HTTP] GET https://minecraft.wiki/api.php failed: 403 Client Error: Forbidden for url: https://minecraft.wiki/api.php?action=parse&format=json&formatversion=2&page=Bedrock_Edition&prop=text%7Cwikitext%7Csections&redirects=1
+[2026-07-21 16:04:43] [HTTP] GET https://minecraft.wiki/api.php failed: 403 Client Error: Forbidden for url: https://minecraft.wiki/api.php?action=query&format=json&formatversion=2&prop=revisions%7Cpageprops&rvprop=content%7Ctimestamp&rvslots=main&titles=Minecraft.net
+[2026-07-21 16:04:43] [NETEASE] 开始抓取网易版...
+[2026-07-21 16:04:43] ===== 抓取任务完成, 耗时 27.34s =====
+[2026-07-21 16:07:29] ===== 抓取任务开始 =====
+[2026-07-21 16:07:29] [JAVA] 拉取 Mojang version_manifest ...
+[2026-07-21 16:07:29] [NETEASE] 拉取网易版数据 ...
+[2026-07-21 16:07:29] [NETEASE] news=5
+[2026-07-21 16:07:30] [JAVA] latest=26.2 snapshot=26.3-snapshot-4 recent=14
+[2026-07-21 16:07:31] [HTTP] GET https://feedback.minecraft.net/hc/en-us/sections/360001385431 -> 404 Client Error: Not Found for url: https://feedback.minecraft.net/hc/en-us/sections/360001385431
+[2026-07-21 16:07:31] [BEDROCK] latest=1.26.33 preview=1.26.40.31 news=0
+[2026-07-21 16:07:31] ===== 抓取任务完成, 耗时 2.61s =====
+[2026-07-21 16:13:51] ===== 抓取任务开始 =====
+[2026-07-21 16:13:51] [JAVA] 拉取 Mojang version_manifest ...
+[2026-07-21 16:13:51] [BEDROCK] 拉取基岩版数据 ...
+[2026-07-21 16:13:51] [NETEASE] 拉取网易版数据 ...
+[2026-07-21 16:13:51] [NETEASE] news=5
+[2026-07-21 16:13:56] [HTTP] GET https://feedback.minecraft.net/hc/en-us/sections/360001385431 -> 403 Client Error: Forbidden for url: https://feedback.minecraft.net/hc/en-us/sections/360001385431
+[2026-07-21 16:13:56] [BEDROCK] latest=1.26.33 preview=1.26.40.31 news=0
+[2026-07-21 16:14:22] [JAVA] latest=26.2 snapshot=26.3-snapshot-4 recent=14
+[2026-07-21 16:14:22] ===== 抓取任务完成, 耗时 31.77s =====
+[2026-07-21 16:27:11] ===== 抓取任务开始 =====
+[2026-07-21 16:27:11] [JAVA] 拉取 Mojang version_manifest ...
+[2026-07-21 16:27:11] [BEDROCK] 拉取基岩版数据 ...
+[2026-07-21 16:27:11] [NETEASE] 拉取网易版数据 ...
+[2026-07-21 16:27:11] [NETEASE] news=5
+[2026-07-21 16:27:23] [JAVA] latest=26.2 snapshot=26.3-snapshot-4 recent=14
+[2026-07-21 16:27:35] [HTTP] GET https://feedback.minecraft.net/hc/en-us/sections/360001385431 -> 403 Client Error: Forbidden for url: https://feedback.minecraft.net/hc/en-us/sections/360001385431
+[2026-07-21 16:27:35] [BEDROCK] latest=1.26.33 preview=1.26.40.31 news=0
+[2026-07-21 16:27:35] ===== 抓取任务完成, 耗时 23.71s =====
+[2026-07-21 16:29:19] ===== 抓取任务开始 =====
+[2026-07-21 16:29:19] [JAVA] 拉取 Mojang version_manifest ...
+[2026-07-21 16:29:19] [NETEASE] 拉取网易版数据 ...
+[2026-07-21 16:29:19] [BEDROCK] 拉取基岩版数据 ...
+[2026-07-21 16:29:19] [NETEASE] news=5
+[2026-07-21 16:29:20] [JAVA] latest=26.2 snapshot=26.3-snapshot-4 recent=14
+[2026-07-21 16:29:22] [HTTP] GET https://feedback.minecraft.net/hc/en-us/sections/360001385431 -> 403 Client Error: Forbidden for url: https://feedback.minecraft.net/hc/en-us/sections/360001385431
+[2026-07-21 16:29:22] [BEDROCK] latest=1.26.33 preview=1.26.40.31 news=0
+[2026-07-21 16:29:22] ===== 抓取任务完成, 耗时 3.62s =====
+[2026-07-21 16:29:32] ===== 抓取任务开始 =====
+[2026-07-21 16:29:32] [JAVA] 拉取 Mojang version_manifest ...
+[2026-07-21 16:29:32] [BEDROCK] 拉取基岩版数据 ...
+[2026-07-21 16:29:32] [NETEASE] 拉取网易版数据 ...
+[2026-07-21 16:29:33] [NETEASE] news=5
+[2026-07-21 16:29:34] [JAVA] latest=26.2 snapshot=26.3-snapshot-4 recent=14
+[2026-07-21 16:29:39] [HTTP] GET https://feedback.minecraft.net/hc/en-us/sections/360001385431 -> 403 Client Error: Forbidden for url: https://feedback.minecraft.net/hc/en-us/sections/360001385431
+[2026-07-21 16:29:39] [BEDROCK] latest=1.26.33 preview=1.26.40.31 news=0
+[2026-07-21 16:29:39] ===== 抓取任务完成, 耗时 7.11s =====
