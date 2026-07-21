@@ -1,0 +1,2551 @@
+{
+  "meta": {
+    "generated_at": "2026-07-21T16:29:39.278407+08:00",
+    "generator": "fetch_minecraft_news.py",
+    "version": "2.0.0",
+    "sources": {
+      "java": "https://launchermeta.mojang.com/mc/game/version_manifest.json",
+      "bedrock": "https://feedback.minecraft.net + 公开版本号",
+      "netease": "https://mc.163.com + 公开资料"
+    },
+    "stats": {
+      "java_versions": 14,
+      "java_news": 248,
+      "java_features": 6,
+      "bedrock_versions": 7,
+      "bedrock_news": 0,
+      "bedrock_features": 6,
+      "netease_news": 5,
+      "netease_features": 6
+    },
+    "elapsed_seconds": 7.11
+  },
+  "java": {
+    "edition": "java",
+    "display_name": "Java 版",
+    "accent": "#f5a623",
+    "logo": "☕ J",
+    "latest_version": {
+      "id": "26.2",
+      "type": "release",
+      "number": "26.2",
+      "name": "26.2",
+      "released": "2026-06-16T12:03:33+00:00",
+      "summary": "Java 版正式版",
+      "url": "https://minecraft.wiki/w/Java_Edition_26.2",
+      "extra": {
+        "updated": "2026-07-16T06:46:26+00:00"
+      }
+    },
+    "upcoming_version": {
+      "id": "26.3-snapshot-4",
+      "type": "snapshot",
+      "number": "26.3-snapshot-4",
+      "name": "26.3-snapshot-4",
+      "released": "2026-07-16T13:59:30+00:00",
+      "summary": "Java 版最新快照",
+      "url": "https://minecraft.wiki/w/Java_Edition_26.3_Snapshot_4",
+      "extra": {
+        "updated": "2026-07-16T14:05:10+00:00"
+      }
+    },
+    "recent_versions": [
+      {
+        "id": "26.3-snapshot-4",
+        "type": "snapshot",
+        "number": "26.3-snapshot-4",
+        "name": "26.3-snapshot-4",
+        "released": "2026-07-16T13:59:30+00:00",
+        "summary": "快照",
+        "url": "https://minecraft.wiki/w/Java_Edition_26.3_Snapshot_4",
+        "extra": {
+          "updated": "2026-07-16T14:05:10+00:00"
+        }
+      },
+      {
+        "id": "26.3-snapshot-3",
+        "type": "snapshot",
+        "number": "26.3-snapshot-3",
+        "name": "26.3-snapshot-3",
+        "released": "2026-07-07T12:03:01+00:00",
+        "summary": "快照",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_3-snapshot_3",
+        "extra": {
+          "updated": "2026-07-16T13:54:18+00:00"
+        }
+      },
+      {
+        "id": "26.3-snapshot-2",
+        "type": "snapshot",
+        "number": "26.3-snapshot-2",
+        "name": "26.3-snapshot-2",
+        "released": "2026-06-30T12:45:43+00:00",
+        "summary": "快照",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_3-snapshot_2",
+        "extra": {
+          "updated": "2026-07-16T13:54:18+00:00"
+        }
+      },
+      {
+        "id": "26.3-snapshot-1",
+        "type": "snapshot",
+        "number": "26.3-snapshot-1",
+        "name": "26.3-snapshot-1",
+        "released": "2026-06-23T11:57:02+00:00",
+        "summary": "快照",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_3-snapshot_1",
+        "extra": {
+          "updated": "2026-07-16T13:54:18+00:00"
+        }
+      },
+      {
+        "id": "23w42a",
+        "type": "snapshot",
+        "number": "23w42a",
+        "name": "23w42a",
+        "released": "2023-10-18T11:37:28+00:00",
+        "summary": "快照",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w42a",
+        "extra": {
+          "updated": "2026-07-16T06:49:48+00:00"
+        }
+      },
+      {
+        "id": "23w41a",
+        "type": "snapshot",
+        "number": "23w41a",
+        "name": "23w41a",
+        "released": "2023-10-11T12:32:46+00:00",
+        "summary": "快照",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w41a",
+        "extra": {
+          "updated": "2026-07-16T06:49:14+00:00"
+        }
+      },
+      {
+        "id": "23w40a",
+        "type": "snapshot",
+        "number": "23w40a",
+        "name": "23w40a",
+        "released": "2023-10-04T12:48:53+00:00",
+        "summary": "快照",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w40a",
+        "extra": {
+          "updated": "2026-07-16T06:49:14+00:00"
+        }
+      },
+      {
+        "id": "1.20.2",
+        "type": "release",
+        "number": "1.20.2",
+        "name": "1.20.2",
+        "released": "2023-09-20T09:02:57+00:00",
+        "summary": "正式版",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_2",
+        "extra": {
+          "updated": "2026-07-16T06:49:14+00:00"
+        }
+      },
+      {
+        "id": "1.20.2-rc2",
+        "type": "snapshot",
+        "number": "1.20.2-rc2",
+        "name": "1.20.2-rc2",
+        "released": "2023-09-18T12:34:57+00:00",
+        "summary": "快照",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_2-rc2",
+        "extra": {
+          "updated": "2026-07-16T06:49:14+00:00"
+        }
+      },
+      {
+        "id": "1.20.2-rc1",
+        "type": "snapshot",
+        "number": "1.20.2-rc1",
+        "name": "1.20.2-rc1",
+        "released": "2023-09-15T13:10:30+00:00",
+        "summary": "快照",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_2-rc1",
+        "extra": {
+          "updated": "2026-07-16T06:49:14+00:00"
+        }
+      },
+      {
+        "id": "1.20.2-pre4",
+        "type": "snapshot",
+        "number": "1.20.2-pre4",
+        "name": "1.20.2-pre4",
+        "released": "2023-09-13T15:06:51+00:00",
+        "summary": "快照",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_2-pre4",
+        "extra": {
+          "updated": "2026-07-16T06:49:14+00:00"
+        }
+      },
+      {
+        "id": "1.20.2-pre3",
+        "type": "snapshot",
+        "number": "1.20.2-pre3",
+        "name": "1.20.2-pre3",
+        "released": "2023-09-12T12:15:08+00:00",
+        "summary": "快照",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_2-pre3",
+        "extra": {
+          "updated": "2026-07-16T06:49:14+00:00"
+        }
+      },
+      {
+        "id": "1.20.2-pre2",
+        "type": "snapshot",
+        "number": "1.20.2-pre2",
+        "name": "1.20.2-pre2",
+        "released": "2023-09-07T12:42:32+00:00",
+        "summary": "快照",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_2-pre2",
+        "extra": {
+          "updated": "2026-07-16T06:49:14+00:00"
+        }
+      },
+      {
+        "id": "1.20.2-pre1",
+        "type": "snapshot",
+        "number": "1.20.2-pre1",
+        "name": "1.20.2-pre1",
+        "released": "2023-09-05T12:06:20+00:00",
+        "summary": "快照",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_2-pre1",
+        "extra": {
+          "updated": "2026-07-16T06:48:40+00:00"
+        }
+      }
+    ],
+    "recent_news": [
+      {
+        "title": "Java 版 26.3-snapshot-4 快照/预发布发布",
+        "summary": "发布于 2026-07-16 22:05 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_3-snapshot-4",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.3-snapshot-3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 21:54 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_3-snapshot-3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.3-snapshot-2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 21:54 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_3-snapshot-2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.3-snapshot-1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 21:54 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_3-snapshot-1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.2 正式版发布",
+        "summary": "发布于 2026-07-16 14:46 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.2-rc-2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:46 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_2-rc-2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.2-rc-1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:46 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_2-rc-1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.2-pre-6 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:46 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_2-pre-6",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.2-pre-5 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:46 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_2-pre-5",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.2-pre-4 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:46 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_2-pre-4",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.2-pre-3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:46 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_2-pre-3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.2-pre-2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:46 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_2-pre-2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.2-pre-1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:46 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_2-pre-1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.2-snapshot-8 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:45 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_2-snapshot-8",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.2-snapshot-7 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:45 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_2-snapshot-7",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.2-snapshot-6 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:45 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_2-snapshot-6",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.2-snapshot-5 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:45 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_2-snapshot-5",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.2-snapshot-4 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:45 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_2-snapshot-4",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.2-snapshot-3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:45 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_2-snapshot-3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.2-snapshot-2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:45 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_2-snapshot-2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1.2 正式版发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1_2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1.2-rc-1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1_2-rc-1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.2-snapshot-1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:45 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_2-snapshot-1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26w14a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26w14a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1.1 正式版发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1_1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1.1-rc-1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1_1-rc-1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1 正式版发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1-rc-3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1-rc-3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1-rc-2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1-rc-2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1-rc-1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1-rc-1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1-pre-3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1-pre-3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1-pre-2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1-pre-2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1-pre-1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1-pre-1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1-snapshot-11 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1-snapshot-11",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1-snapshot-10 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1-snapshot-10",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1-snapshot-9 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1-snapshot-9",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1-snapshot-8 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1-snapshot-8",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1-snapshot-7 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1-snapshot-7",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1-snapshot-6 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1-snapshot-6",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1-snapshot-5 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1-snapshot-5",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1-snapshot-4 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1-snapshot-4",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1-snapshot-3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1-snapshot-3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1-snapshot-2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1-snapshot-2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 26.1-snapshot-1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:43 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_26_1-snapshot-1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.11 正式版发布",
+        "summary": "发布于 2026-07-16 14:43 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_11",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.11-rc3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:43 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_11-rc3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.11-rc2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:43 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_11-rc2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.11-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:43 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_11-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.11-pre5 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:43 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_11-pre5",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.11-pre4 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:43 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_11-pre4",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.11-pre3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:43 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_11-pre3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.11-pre2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:43 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_11-pre2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.11-pre1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:43 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_11-pre1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w46a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w46a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w45a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w45a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w44a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w44a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w43a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w43a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w42a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w42a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w41a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w41a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.10 正式版发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_10",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.10-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_10-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.9 正式版发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_9",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.9-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_9-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.9-pre4 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_9-pre4",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.9-pre3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_9-pre3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.9-pre2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_9-pre2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.9-pre1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_9-pre1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w37a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w37a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w36b 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w36b",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w36a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w36a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w35a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w35a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w34b 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w34b",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w34a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w34a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w33a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w33a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w32a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w32a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w31a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:42 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w31a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.8 正式版发布",
+        "summary": "发布于 2026-07-16 14:41 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_8",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.8-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:41 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_8-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.7 正式版发布",
+        "summary": "发布于 2026-07-16 14:41 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_7",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.7-rc2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:41 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_7-rc2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.7-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:41 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_7-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.6 正式版发布",
+        "summary": "发布于 2026-07-16 14:41 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_6",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.6-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:41 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_6-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.6-pre4 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:41 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_6-pre4",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.6-pre3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:41 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_6-pre3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.6-pre2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:41 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_6-pre2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.6-pre1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:41 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_6-pre1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w21a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:41 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w21a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w20a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:40 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w20a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w19a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:40 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w19a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w18a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:40 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w18a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w17a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:40 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w17a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w16a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:40 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w16a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w15a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:40 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w15a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w14craftmine 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:40 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w14craftmine",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.5 正式版发布",
+        "summary": "发布于 2026-07-16 14:40 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_5",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.5-rc2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:40 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_5-rc2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.5-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:40 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_5-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.5-pre3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:40 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_5-pre3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.5-pre2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:40 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_5-pre2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.5-pre1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:40 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_5-pre1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w10a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:40 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w10a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w09b 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:40 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w09b",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w09a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:40 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w09a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w08a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:40 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w08a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w07a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:39 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w07a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w06a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:39 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w06a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w05a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:38 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w05a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w04a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:38 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w04a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w03a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:38 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w03a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 25w02a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:37 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_25w02a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.4 正式版发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_4",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.4-rc3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_4-rc3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.4-rc2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_4-rc2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.4-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_4-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.4-pre3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_4-pre3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.4-pre2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_4-pre2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.4-pre1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_4-pre1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w46a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w46a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w45a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w45a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w44a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w44a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.3 正式版发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.2 正式版发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.2-rc2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_2-rc2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.2-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_2-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.2-pre5 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_2-pre5",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.2-pre4 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_2-pre4",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.2-pre3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_2-pre3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.2-pre2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_2-pre2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.2-pre1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_2-pre1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w40a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w40a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w39a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w39a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w38a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w38a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w37a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w37a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w36a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w36a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w35a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w35a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w34a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w34a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w33a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w33a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.1 正式版发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21.1-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21_1-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21 正式版发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21-pre4 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21-pre4",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21-pre3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21-pre3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21-pre2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21-pre2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.21-pre1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_21-pre1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w21b 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w21b",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w21a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w21a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w20a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w20a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w19b 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w19b",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w19a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w19a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w18a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:35 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w18a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.6 正式版发布",
+        "summary": "发布于 2026-07-16 14:34 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_6",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.6-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:34 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_6-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.5 正式版发布",
+        "summary": "发布于 2026-07-16 14:34 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_5",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.5-rc3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:34 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_5-rc3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.5-rc2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:34 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_5-rc2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.5-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:34 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_5-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.5-pre4 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:34 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_5-pre4",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.5-pre3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:34 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_5-pre3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.5-pre2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:34 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_5-pre2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.5-pre1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:34 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_5-pre1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w14a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:34 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w14a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w14potato 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:33 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w14potato",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w13a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:34 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w13a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w12a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:33 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w12a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w11a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:33 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w11a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w10a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:33 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w10a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w09a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:33 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w09a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w07a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:32 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w07a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w06a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:32 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w06a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w05b 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:32 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w05b",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w05a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:32 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w05a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w04a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:32 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w04a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w03b 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:32 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w03b",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 24w03a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:32 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_24w03a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w51b 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:32 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w51b",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w51a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:32 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w51a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.4 正式版发布",
+        "summary": "发布于 2026-07-16 14:32 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_4",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.4-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:32 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_4-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.3 正式版发布",
+        "summary": "发布于 2026-07-16 14:32 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.3-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:32 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_3-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.3-pre4 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:32 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_3-pre4",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.3-pre3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:32 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_3-pre3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.3-pre2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:32 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_3-pre2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.3-pre1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:32 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_3-pre1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w46a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:31 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w46a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w45a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:31 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w45a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w44a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:30 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w44a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w43b 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:30 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w43b",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w43a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:30 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w43a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w42a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:49 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w42a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w41a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:49 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w41a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w40a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:49 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w40a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.2 正式版发布",
+        "summary": "发布于 2026-07-16 14:49 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.2-rc2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:49 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_2-rc2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.2-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:49 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_2-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.2-pre4 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:49 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_2-pre4",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.2-pre3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:49 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_2-pre3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.2-pre2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:49 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_2-pre2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.2-pre1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:48 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_2-pre1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w35a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:48 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w35a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w33a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:48 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w33a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w32a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:48 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w32a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w31a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:48 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w31a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.1 正式版发布",
+        "summary": "发布于 2026-07-16 14:47 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20.1-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:47 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20_1-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20 正式版发布",
+        "summary": "发布于 2026-07-16 14:47 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:47 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20-pre7 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:47 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20-pre7",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20-pre6 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:47 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20-pre6",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20-pre5 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:47 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20-pre5",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20-pre4 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:47 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20-pre4",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20-pre3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:47 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20-pre3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20-pre2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:47 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20-pre2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.20-pre1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:47 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_20-pre1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w18a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:47 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w18a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w17a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:47 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w17a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w16a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:47 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w16a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w14a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:47 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w14a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w13a_or_b 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w13a_or_b",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w13a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w13a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w12a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w12a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.19.4 正式版发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_19_4",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.19.4-rc3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_19_4-rc3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.19.4-rc2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_19_4-rc2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.19.4-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_19_4-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.19.4-pre4 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_19_4-pre4",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.19.4-pre3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_19_4-pre3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.19.4-pre2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_19_4-pre2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.19.4-pre1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:44 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_19_4-pre1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w07a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w07a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w06a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w06a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w05a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w05a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w04a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w04a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 23w03a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_23w03a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.19.3 正式版发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: release. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_19_3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.19.3-rc3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_19_3-rc3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.19.3-rc2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_19_3-rc2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.19.3-rc1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_19_3-rc1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.19.3-pre3 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_19_3-pre3",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.19.3-pre2 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_19_3-pre2",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 1.19.3-pre1 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_1_19_3-pre1",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 22w46a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_22w46a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 22w45a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:36 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_22w45a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 22w44a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:30 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_22w44a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 22w43a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:30 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_22w43a",
+        "category": "版本",
+        "source": "Mojang"
+      },
+      {
+        "title": "Java 版 22w42a 快照/预发布发布",
+        "summary": "发布于 2026-07-16 14:30 (CST). 类型: snapshot. 详见 Mojang 清单或 Wiki 页面.",
+        "date": "2026-07-16",
+        "url": "https://minecraft.wiki/w/Java_Edition_22w42a",
+        "category": "版本",
+        "source": "Mojang"
+      }
+    ],
+    "features": [
+      {
+        "title": "主世界更新与生物群系",
+        "description": "近期 Java 版 (26.2) 持续优化主世界生物群系, 包括新增植被、调整山脉与海洋生成等.",
+        "icon": "🌲",
+        "category": "世界生成",
+        "version": "26.2"
+      },
+      {
+        "title": "快照实验: 新生物与物品",
+        "description": "最新快照 26.3-snapshot-4 引入了若干新方块/生物/物品, 包含末地与深暗相关的玩法扩展.",
+        "icon": "👾",
+        "category": "生物/物品",
+        "version": "26.3-snapshot-4"
+      },
+      {
+        "title": "战斗与附魔平衡",
+        "description": "对剑、斧、三叉戟、弩等武器数值进行微调, 新增若干附魔变体.",
+        "icon": "⚔️",
+        "category": "战斗",
+        "version": "26.2"
+      },
+      {
+        "title": "红石与方块改进",
+        "description": "对红石元件、铜系列、雕纹书架等方块行为做了优化, 为红石玩家带来更稳定的工程体验.",
+        "icon": "🧱",
+        "category": "红石",
+        "version": "26.2"
+      },
+      {
+        "title": "Mod 与服务器生态",
+        "description": "Java 版以 Mod 与插件生态著称, Fabric / Forge / NeoForge 三大平台同步支持.",
+        "icon": "🧩",
+        "category": "Mod",
+        "version": "26.2"
+      },
+      {
+        "title": "Realms 与多人联机",
+        "description": "Java 版 Realms 支持好友/小型服务器, 适合与朋友轻松开档.",
+        "icon": "🌐",
+        "category": "联机",
+        "version": "26.2"
+      }
+    ],
+    "fetched_at": "2026-07-21T16:29:32.172453+08:00",
+    "source": "https://launchermeta.mojang.com/mc/game/version_manifest.json",
+    "notes": [
+      "共有 102 个历史正式版, 739 个快照/预发布"
+    ]
+  },
+  "bedrock": {
+    "edition": "bedrock",
+    "display_name": "基岩版",
+    "accent": "#5fa8d3",
+    "logo": "🧊 B",
+    "latest_version": {
+      "id": "1.26.33",
+      "type": "release",
+      "number": "1.26.33",
+      "name": "1.26.33",
+      "released": "2026-07-16",
+      "summary": "基岩版正式版",
+      "url": "https://feedback.minecraft.net/hc/en-us/articles?q=Bedrock+1.26.33",
+      "extra": {}
+    },
+    "upcoming_version": {
+      "id": "1.26.40.31",
+      "type": "preview",
+      "number": "1.26.40.31",
+      "name": "1.26.40.31",
+      "released": "2026-07-15",
+      "summary": "基岩版最新 Preview/Beta",
+      "url": "https://feedback.minecraft.net/hc/en-us/articles?q=Bedrock+1.26.40.31",
+      "extra": {}
+    },
+    "recent_versions": [
+      {
+        "id": "1.26.40.31",
+        "type": "preview",
+        "number": "1.26.40.31",
+        "name": "1.26.40.31",
+        "released": "2026-07-15",
+        "summary": "基岩版 Preview",
+        "url": "https://feedback.minecraft.net/hc/en-us/articles?q=Bedrock+1_26_40_31",
+        "extra": {}
+      },
+      {
+        "id": "1.26.40.30",
+        "type": "preview",
+        "number": "1.26.40.30",
+        "name": "1.26.40.30",
+        "released": "2026-07-08",
+        "summary": "基岩版 Preview",
+        "url": "https://feedback.minecraft.net/hc/en-us/articles?q=Bedrock+1_26_40_30",
+        "extra": {}
+      },
+      {
+        "id": "1.26.40.21",
+        "type": "preview",
+        "number": "1.26.40.21",
+        "name": "1.26.40.21",
+        "released": "2026-07-01",
+        "summary": "基岩版 Preview",
+        "url": "https://feedback.minecraft.net/hc/en-us/articles?q=Bedrock+1_26_40_21",
+        "extra": {}
+      },
+      {
+        "id": "1.26.40.20",
+        "type": "preview",
+        "number": "1.26.40.20",
+        "name": "1.26.40.20",
+        "released": "2026-06-24",
+        "summary": "基岩版 Preview",
+        "url": "https://feedback.minecraft.net/hc/en-us/articles?q=Bedrock+1_26_40_20",
+        "extra": {}
+      },
+      {
+        "id": "1.26.33",
+        "type": "release",
+        "number": "1.26.33",
+        "name": "1.26.33",
+        "released": "2026-07-16",
+        "summary": "基岩版正式版 - 新生物/群系/方块",
+        "url": "https://feedback.minecraft.net/hc/en-us/articles?q=Bedrock+1_26_33",
+        "extra": {}
+      },
+      {
+        "id": "1.26.32",
+        "type": "release",
+        "number": "1.26.32",
+        "name": "1.26.32",
+        "released": "2026-06-25",
+        "summary": "基岩版正式版 - 性能优化与修复",
+        "url": "https://feedback.minecraft.net/hc/en-us/articles?q=Bedrock+1_26_32",
+        "extra": {}
+      },
+      {
+        "id": "1.26.31",
+        "type": "release",
+        "number": "1.26.31",
+        "name": "1.26.31",
+        "released": "2026-06-17",
+        "summary": "基岩版正式版 - Bug 修复",
+        "url": "https://feedback.minecraft.net/hc/en-us/articles?q=Bedrock+1_26_31",
+        "extra": {}
+      }
+    ],
+    "recent_news": [],
+    "features": [
+      {
+        "title": "跨平台联机",
+        "description": "基岩版核心卖点: Windows / Xbox / PlayStation / Switch / 移动端跨平台联机.",
+        "icon": "🌐",
+        "category": "平台",
+        "version": "1.26.33"
+      },
+      {
+        "title": "Realms 与联机大厅",
+        "description": "官方 Realms + 精选服务器, 开黑/大型服务器一键加入.",
+        "icon": "🏰",
+        "category": "联机",
+        "version": "1.26.33"
+      },
+      {
+        "title": "市场 (Marketplace)",
+        "description": "基岩版独有市场: 皮肤、地图、材质包、人物创作等付费/免费内容.",
+        "icon": "🛒",
+        "category": "市场",
+        "version": "1.26.33"
+      },
+      {
+        "title": "官方追加包 (Add-On)",
+        "description": "基岩版通过行为包/资源包实现官方与玩家自制内容, 配套 Script API 进一步扩展玩法.",
+        "icon": "🧩",
+        "category": "Add-On",
+        "version": "1.26.33"
+      },
+      {
+        "title": "触屏与手柄支持",
+        "description": "原生支持触屏与手柄, 移动设备与主机平台体验更佳.",
+        "icon": "🎮",
+        "category": "操控",
+        "version": "1.26.33"
+      },
+      {
+        "title": "渲染与光追",
+        "description": "高端设备支持 RTX 光追与高分辨率材质包, 视觉效果更精致.",
+        "icon": "✨",
+        "category": "画面",
+        "version": "1.26.33"
+      }
+    ],
+    "fetched_at": "2026-07-21T16:29:32.172599+08:00",
+    "source": "https://feedback.minecraft.net + 公开版本号",
+    "notes": []
+  },
+  "netease": {
+    "edition": "netease",
+    "display_name": "网易版 (中国版)",
+    "accent": "#e85aad",
+    "logo": "🐉 N",
+    "latest_version": {
+      "id": "netease-cn",
+      "type": "release",
+      "number": "网易版",
+      "name": "我的世界 (网易版)",
+      "released": "2017-04 在中国大陆正式上线, 由网易运营",
+      "summary": "网易代理运营的国服版本, 包含独占内容、联机大厅与组件中心.",
+      "url": "https://mc.163.com/",
+      "extra": {}
+    },
+    "upcoming_version": {
+      "id": "netease-next",
+      "type": "upcoming",
+      "number": "持续更新",
+      "name": "网易版持续更新",
+      "released": "",
+      "summary": "网易版以周/月为节奏持续推出活动与版本更新.",
+      "url": "https://mc.163.com/news",
+      "extra": {}
+    },
+    "recent_versions": [
+      {
+        "id": "网易版 (对基岩 1.26)",
+        "type": "release",
+        "number": "网易版 (对基岩 1.26)",
+        "name": "网易版 (对基岩 1.26)",
+        "released": "2026-07",
+        "summary": "网易版跟进基岩版大版本",
+        "url": "https://mc.163.com/news",
+        "extra": {}
+      },
+      {
+        "id": "网易版 (对基岩 1.21)",
+        "type": "release",
+        "number": "网易版 (对基岩 1.21)",
+        "name": "网易版 (对基岩 1.21)",
+        "released": "2024-08",
+        "summary": "Tricky Trials 内容跟进",
+        "url": "https://mc.163.com/news",
+        "extra": {}
+      },
+      {
+        "id": "网易版 (对基岩 1.20)",
+        "type": "release",
+        "number": "网易版 (对基岩 1.20)",
+        "name": "网易版 (对基岩 1.20)",
+        "released": "2023-12",
+        "summary": "Trails & Tales 跟进",
+        "url": "https://mc.163.com/news",
+        "extra": {}
+      }
+    ],
+    "recent_news": [
+      {
+        "title": "æçä¸ç",
+        "summary": "",
+        "date": "",
+        "url": "https://mc.163.com//mc.163.com/",
+        "category": "网易",
+        "source": "mc.163.com"
+      },
+      {
+        "title": "æçä¸ç",
+        "summary": "",
+        "date": "",
+        "url": "https://mc.163.com//mc.163.com/",
+        "category": "网易",
+        "source": "mc.163.com"
+      },
+      {
+        "title": "å¾®å",
+        "summary": "",
+        "date": "",
+        "url": "https://mc.163.com//weibo.com/MinecraftChina",
+        "category": "网易",
+        "source": "mc.163.com"
+      },
+      {
+        "title": "è®¸å¯åè®®",
+        "summary": "",
+        "date": "",
+        "url": "https://mc.163.com/news/update/20180619/29176_719812.html",
+        "category": "网易",
+        "source": "mc.163.com"
+      },
+      {
+        "title": "æçä¸ç æµ·æ´ä¹çº¦",
+        "summary": "",
+        "date": "",
+        "url": "https://mc.163.com//mc.163.com/news/20180619/29175_757767.html",
+        "category": "网易",
+        "source": "mc.163.com"
+      }
+    ],
+    "features": [
+      {
+        "title": "国服独占内容",
+        "description": "网易版包含官方独占地图、皮肤、材质包、活动玩法, 部分由国内开发者与 Mojang 联合打造.",
+        "icon": "🇨🇳",
+        "category": "独占",
+        "version": "—"
+      },
+      {
+        "title": "组件中心 (Mod 平台)",
+        "description": "网易版组件中心提供官方和玩家上传的玩法/模组, 通过游戏内即可安装启用.",
+        "icon": "🧩",
+        "category": "Mod",
+        "version": "—"
+      },
+      {
+        "title": "联机大厅 / 租赁服",
+        "description": "官方联机大厅支持快速匹配小游戏、对战、生存, 也可一键开租赁服与好友长期联机.",
+        "icon": "🏰",
+        "category": "联机",
+        "version": "—"
+      },
+      {
+        "title": "充值与会员 / 装扮",
+        "description": "网易版通过充值系统提供 Minecoin、皮肤、人物装扮、尊享会员等增值服务.",
+        "icon": "💎",
+        "category": "商城",
+        "version": "—"
+      },
+      {
+        "title": "教育版集成",
+        "description": "网易版与教育版内容有部分互通, 教师与学生可使用教学资源.",
+        "icon": "📚",
+        "category": "教育",
+        "version": "—"
+      },
+      {
+        "title": "本地化与文化活动",
+        "description": "网易版定期推出与传统文化、节庆、影视 IP 联动的限时活动.",
+        "icon": "🎎",
+        "category": "活动",
+        "version": "—"
+      }
+    ],
+    "fetched_at": "2026-07-21T16:29:32.172903+08:00",
+    "source": "https://mc.163.com + 公开资料",
+    "notes": []
+  }
+}
