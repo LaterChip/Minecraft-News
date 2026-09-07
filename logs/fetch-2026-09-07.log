@@ -1,0 +1,9 @@
+[2026-09-07 10:42:46] ===== 抓取任务开始 =====
+[2026-09-07 10:42:46] [JAVA] 拉取 Mojang version_manifest ...
+[2026-09-07 10:42:46] [BEDROCK] 拉取基岩版数据 ...
+[2026-09-07 10:42:46] [NETEASE] 拉取网易版数据 ...
+[2026-09-07 10:42:47] [JAVA] latest=26.2 snapshot=26.3-pre-2 recent=14
+[2026-09-07 10:42:47] [HTTP] GET https://feedback.minecraft.net/hc/en-us/sections/360001385431 -> 404 Client Error: Not Found for url: https://feedback.minecraft.net/hc/en-us/sections/360001385431
+[2026-09-07 10:42:47] [BEDROCK] latest=1.26.33 preview=1.26.40.31 news=0
+[2026-09-07 10:42:48] [NETEASE] news=5
+[2026-09-07 10:42:48] ===== 抓取任务完成, 耗时 1.28s =====
