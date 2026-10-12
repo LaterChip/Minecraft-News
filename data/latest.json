@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-11T11:47:07.588003+08:00",
+    "generated_at": "2026-10-12T12:09:21.655763+08:00",
     "generator": "fetch_minecraft_news.py",
     "version": "2.0.0",
     "sources": {
@@ -18,7 +18,7 @@
       "netease_news": 5,
       "netease_features": 6
     },
-    "elapsed_seconds": 1.24
+    "elapsed_seconds": 1.27
   },
   "java": {
     "edition": "java",
@@ -2377,7 +2377,7 @@
         "version": "26.3"
       }
     ],
-    "fetched_at": "2026-10-11T11:47:06.352099+08:00",
+    "fetched_at": "2026-10-12T12:09:20.408626+08:00",
     "source": "https://launchermeta.mojang.com/mc/game/version_manifest.json",
     "notes": [
       "共有 103 个历史正式版, 754 个快照/预发布"
@@ -2525,7 +2525,7 @@
         "version": "1.26.33"
       }
     ],
-    "fetched_at": "2026-10-11T11:47:06.352564+08:00",
+    "fetched_at": "2026-10-12T12:09:20.409922+08:00",
     "source": "https://feedback.minecraft.net + 公开版本号",
     "notes": []
   },
@@ -2672,7 +2672,7 @@
         "version": "—"
       }
     ],
-    "fetched_at": "2026-10-11T11:47:06.352864+08:00",
+    "fetched_at": "2026-10-12T12:09:20.409812+08:00",
     "source": "https://mc.163.com + 公开资料",
     "notes": []
   }
